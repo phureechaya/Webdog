@@ -15,13 +15,13 @@
     <!-- start navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container">
-            <button style='font-size:24px'>Dog Breed<i class='fas fa-paw' style='font-size:36px'></i></button>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button style='font-size:24px'><a class="nav-link" href="http://127.0.0.1:5500/dogcafehome.html">Dog Breed</a></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupported"
+                aria-controls="navbarSupported" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <div class="collapse navbar-collapse" id="navbarSupported">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="http://127.0.0.1:5500/dogcafehome.html">Home</a>
@@ -46,19 +46,11 @@
 
     <!-- start carousel -->
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
+            <div class="carousel-item active">
                 <img src="https://static.wixstatic.com/media/111897_f7e73333d3944cf688c036e5ff9e3ca2~mv2.png/v1/fill/w_640,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/111897_f7e73333d3944cf688c036e5ff9e3ca2~mv2.png"
                     class="d-block w-100" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption bg-body-tertiary">
                     <h5>Our Story</h5>
                     <P Align=center>คุณธนา ทวีกิจวาที ผู้เป็นเจ้าของร้าน Dog
                         country cafe เริ่มต้นเปิดร้านในวันที่ 1 ธันวาคม ปี พ.ศ.
@@ -66,28 +58,27 @@
                         ในตอนนั้นมีสุนัขเพียงแค่ 40 ตัวเท่านั้นแต่มีเป้าหมายคือการเพิ่มจำนวนสาขารอบกรุงเทพโซนบางนา...
                     </P>
                     <a href="http://127.0.0.1:5500/dogcafeStory.html" id="ourstorylink"
-                        class="btn btn-secondary my-2">คลิ๊กเพื่อดูเพิ่มเติม</a>
+                        class="btn btn-outline-secondary my-2">คลิ๊กเพื่อดูเพิ่มเติม</a>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
+            <div class="carousel-item" >
                 <img src="https://mpics.mgronline.com/pics/Images/565000008992603.JPEG" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption bg-body-tertiary">
                     <h5>Service</h5>
                     <p>ภายในคาเฟ่มีน้องหมามากมายต่างสายพันธุ๋มีทั้งพันธุ์เล็กพันธุ์ใหญ่แยกโซนแต่ละสายพันธุ์ให้เรียบร้อย
                         พร้อมให้ลูกค้าทุกท่านได้พบเจอกับความน่ารักทั้งหลายแล้ว...</p>
                     <a href="http://127.0.0.1:5500/dogcafeService.html" id="myLink"
-                        class="btn btn-secondary my-2">คลิ๊กเพื่อดูเพิ่มเติม</a>
+                        class="btn btn-outline-secondary my-2">คลิ๊กเพื่อดูเพิ่มเติม</a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://mpics.mgronline.com/pics/Images/565000008992601.JPEG" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption bg-body-tertiary">
                     <h5>Menu</h5>
                     <p>ภายในร้านมีอาหารให้เลือกทานมากมายมีทั้งอาหารอิตาลี อาหารไทย และอาหารญี่ปุ่น
                         มีของคาวและแน่นอนว่าต้องมีของหวาน มีทั้งบัวลอย ไอศกรีม ฮันนี่โทสต์ และอื่นๆอีกมากมาย...</p>
                     <a href="http://127.0.0.1:5500/dogmenu.html" id="linkmenu"
-                        class="btn btn-secondary my-2">คลิ๊กเพื่อดูเพิ่มเติม</a>
-
+                        class="btn btn-outline-secondary my-2">คลิ๊กเพื่อดูเพิ่มเติม</a>
                 </div>
             </div>
         </div>
@@ -108,16 +99,14 @@
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-5 col-sm-5 col-lg-5">
                     <img src="https://static.wixstatic.com/media/111897_d5eb722aa3874c849c2fbca882e766a6~mv2.jpg/v1/fill/w_459,h_459,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/242227533_1780346325641891_8381130754845255672_n.jpg"
-                        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+                        class="d-block mx-lg-auto img-fluid" width="700" height="500"
                         loading="lazy">
                 </div>
                 <div class="col-lg-7">
                     <h6 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">ประวัติคาเฟ่</h6>
                     <p class="text"> คุณธนา ทวีกิจวาที ผู้เป็นเจ้าของร้าน Dog country cafe เริ่มต้นเปิดร้านในวันที่ 1
                         ธันวาคม ปี พ.ศ. 2560
-                        ในตอนนั้นมีสุนัขเพียงแค่ 40 ตัวเท่านั้นแต่มีเป้าหมายคือการเพิ่มจำนวนสาขารอบกรุงเทพโซนบางนา</p>
-                    <a href="http://127.0.0.1:5500/dogcafe2.html#ourstory" id="ourstorylink"
-                        class="btn btn-primary my-2">คลิ๊กเพื่อดูเพิ่มเติม</a>
+                        ในตอนนั้นมีสุนัขเพียงแค่ 40 ตัวเท่านั้นแต่มีเป้าหมายคือการเพิ่มจำนวนสาขารอบกรุงเทพโซนบางนา...</p>
                 </div>
             </div>
         </section>
@@ -126,18 +115,16 @@
 
     <!-- start service -->
     <div class="container">
-        <div class="row g-0 bg-body-secondary position-relative">
-            <div class="col-md-5 mb-md-0 p-md-4">
+        <div class="row bg-body-secondary">
+            <div class="col-md-5 p-md-4">
                 <img src="https://static.wixstatic.com/media/111897_f7e73333d3944cf688c036e5ff9e3ca2~mv2.png/v1/fill/w_640,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/111897_f7e73333d3944cf688c036e5ff9e3ca2~mv2.png"
-                    class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    class="d-block mx-lg-auto img-fluid" width="700" height="500" loading="lazy">
             </div>
-            <div class="col-md-6 p-4 ps-md-0">
+            <div class="col-md-5 p-4 ">
                 <h5 class="mt-0">รายชื่อ และ สายพันธุ๋</h5>
                 <p>ภายในคาเฟ่มีน้องหมามากมายต่างสายพันธุ๋มีทั้งพันธุ์เล็กพันธุ์ใหญ่
                     แยกโซนแต่ละสายพันธุ์ให้เรียบร้อย
-                    พร้อมให้ลูกค้าทุกท่านได้พบเจอกับความน่ารักทั้งหลายแล้ว!</p>
-                <a href="https://www.dogcountry-cafe.com/pets-zone" id="myLink"
-                    class="btn btn-primary my-2">คลิ๊กเพื่อดูเพิ่มเติม</a>
+                    พร้อมให้ลูกค้าทุกท่านได้พบเจอกับความน่ารักทั้งหลายแล้ว...</p>
             </div>
         </div>
     </div>
@@ -149,15 +136,13 @@
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-5 col-sm-5 col-lg-5">
                     <img src="https://mpics.mgronline.com/pics/Images/565000008992601.JPEG"
-                        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+                        class="d-block mx-lg-auto img-fluid" width="700" height="500"
                         loading="lazy">
                 </div>
                 <div class="col-lg-7">
                     <h6 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">เมนูอาหาร</h6>
                     <p class="text"> ภายในร้านมีอาหารให้เลือกทานมากมายมีทั้งอาหารอิตาลี อาหารไทย และอาหารญี่ปุ่น
-                        มีของคาวและแน่นอนว่าต้องมีของหวาน มีทั้งบัวลอย ไอศกรีม ฮันนี่โทสต์ และอื่นๆอีกมากมาย </p>
-                    <a href="https://www.dogcountry-cafe.com/izakaya" id="linkmenu"
-                        class="btn btn-primary my-2">คลิ๊กเพื่อดูเพิ่มเติม</a>
+                        มีของคาวและแน่นอนว่าต้องมีของหวาน มีทั้งบัวลอย ไอศกรีม ฮันนี่โทสต์ และอื่นๆอีกมากมาย...</p>
                 </div>
             </div>
         </section>
@@ -176,7 +161,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-10 col-md-5 col-lg-4">
                     <div class="card text-center">
                         <div class="card-body">
                             <img src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t39.30808-6/375050618_2135809063283772_1454949826950051990_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeEAvmMsVBrahufrfyxc-voIJdPIjSKzlBwl08iNIrOUHIUY9rdli9XBy5r5MYAe_Swvwuyr7RVfO6jAwc343Vvv&_nc_ohc=e_Sbix1_V0MAX-or5Vw&_nc_ht=scontent.fbkk29-8.fna&oh=00_AfArzhnbd6lWsqMrX62G8G4IhDEigP_Kn_8Z56fv830g2Q&oe=650694E6"
@@ -184,36 +169,43 @@
                             <h3 class="card-title py-2">ขวัญธิดา หะนันตะ</h3>
                             <p>ID : 64122250006</p>
                             <p class="socials">
-                                <a href="https://www.facebook.com/slowly.eieieieei"><i class="bi bi-facebook text-dark"></i></a>
-                                <a href="https://www.instagram.com/katchupp__/?hl=en"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                <a href="https://www.facebook.com/slowly.eieieieei"><i
+                                        class="bi bi-facebook text-dark"></i></a>
+                                <a href="https://www.instagram.com/katchupp__/?hl=en"><i
+                                        class="bi bi-instagram text-dark mx-1"></i></a>
                                 <a href="https://line.me/ti/p/TvK_tEVq8h"><i class="bi bi-line text-dark mx-1"></i></a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-10 col-md-5 col-lg-4">
                     <div class="card text-center">
                         <div class="card-body">
-                            <img src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t39.30808-6/378680037_2762536877217467_8958118676181300397_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeEanCaujwgrFYDMZ8i-6AE-TzPd1O4Asw1PM93U7gCzDR-O9nn4EY52muNSN0S6Jnn_7ZGCsfflrba7BdtX66QW&_nc_ohc=Yn5ThNMl6p4AX-Pq3jt&_nc_ht=scontent.fbkk29-1.fna&oh=00_AfD98JmgQydb6zcs-CVuDNDYEvnAzdrOmtTQUeO9m5cecw&oe=65075894" alt="" class="img-fluid rounded-circle">
+                            <img src="https://scontent.fbkk29-5.fna.fbcdn.net/v/t39.30808-6/378697672_2762540887217066_2830527934861622875_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeEWRGoGkuFvGuV-16X64ThEGNZjooudg4UY1mOii52DhUYBDGOpRa4hzKUyX1N3jLqDfObM_xBxogwdQKtMPtKC&_nc_ohc=FXQz_2aQVK4AX_BH0yw&_nc_ht=scontent.fbkk29-5.fna&oh=00_AfAGc97QZE4x6V6oc9QaifuzEv1FaflxxhxStwLfMnxWPw&oe=6506C74F"
+                                alt="" class="img-fluid rounded-circle">
                             <h3 class="card-title py-2">ภูรีชยา นามราช</h3>
                             <p>ID : 64122250013</p>
                             <p class="socials">
                                 <a href="https://www.facebook.com/ammairy/"><i class="bi bi-facebook text-dark"></i></a>
-                                <a href="https://www.instagram.com/aamm.png/?hl=en"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                <a href="https://www.instagram.com/aamm.png/?hl=en"><i
+                                        class="bi bi-instagram text-dark mx-1"></i></a>
                                 <a href="https://line.me/ti/p/BRiIrECWlm"><i class="bi bi-line text-dark mx-1"></i></a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-5 col-lg-4">
+                <div class="col-10 col-md-5 col-lg-4">
                     <div class="card text-center">
                         <div class="card-body">
-                            <img src="" alt="" class="img-fluid rounded-circle">
+                            <img src="https://scontent.fbkk2-5.fna.fbcdn.net/v/t39.30808-6/311472338_3399620390291309_2572142783759336861_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeG4xi577LJuzOHdb0n8ft9sivOBDHOrmEWK84EMc6uYRUdlbl7IJAFsoGeGDPaxY9pHomRLnFQ1yDcLMTnlUxt3&_nc_ohc=sIfv3B7TVowAX-Radmq&_nc_zt=23&_nc_ht=scontent.fbkk2-5.fna&oh=00_AfBh2cfbfYJsiO3f3E4xGlvCX_KkWEKlykbVEdMVrv8ySw&oe=6505FB48"
+                                alt="" class="img-fluid rounded-circle">
                             <h3 class="card-title py-2">ภัทราพร ศิลาขาว</h3>
                             <p>ID : 64122250019</p>
                             <p class="socials">
-                                <a href="https://www.facebook.com/profile.php?id=100007301446583"><i class="bi bi-facebook text-dark"></i></a>
-                                <a href="https://www.instagram.com/patjiux_/?hl=en"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100007301446583"><i
+                                        class="bi bi-facebook text-dark"></i></a>
+                                <a href="https://www.instagram.com/patjiux_/?hl=en"><i
+                                        class="bi bi-instagram text-dark mx-1"></i></a>
                                 <a href="https://line.me/ti/p/BRiIrECWlm"><i class="bi bi-line text-dark mx-1"></i></a>
                             </p>
                         </div>
@@ -226,7 +218,7 @@
 
     <!-- start footer -->
     <div class="container">
-        <footer class="py-3 my-4">
+        <footer class="footer">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a class="nav-link px-2 text-body-secondary"
                         href="http://127.0.0.1:5500/dogcafehome.html">Home</a></li>
