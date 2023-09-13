@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Orelega+One&display=swap');
+* {
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif ;  
+}
+
+body {
+    background: #dab3b3;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-style: 2em;
+    color: navy;
+    pointer-events: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(55, 37, 160);
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: rgb(231, 230, 237) ;
+}
+.search {
+    margin-top: 100%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+  }
+
+.photo-banner {
+    position: relative;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.photo-banner img {
+    height: 65rem;
+    width: 90rem;
+    border-radius: 1rem;
+}
+
+.our-story {
+    display: flex;
+}
+
+.photo-ourstory {
+    display: flex;
+    width: 2%;
+    height: 50%;
+}
+
+.text-story {
+    display:flex
+}
+
+#text {
+    position: absolute;
+    font-size: 3em;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(0, 0, 2);
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.parallax1 img {
+    position: absolute;
+    top: 20%;
+    left: 30px;
+    width: 60%;
+    pointer-events: none;
+  }
+
+  .ประวัติคาเฟ่ {
+    margin-top: 20%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+  }
+
+.mt-0 {
+    margin: 0px auto;
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+  }
+  
+  .top {
+    display: flex;
+    background: #a87139;
+  }
+  
+  .head-head {
+    size: 80px;
+    width: 60%;
+    display: flex;
+  }
+  
+  .head-head h1 {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .ul {
+    width: 100%;
+    display: flex;
+  }
+  
+  .header {
+    height: 500px;
+    display: center;
+    justify-content: center;
+  }
+  
+  .welcome {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    size: 80px;
+  }
